@@ -1,0 +1,29 @@
+{
+  "name": "uniswap-v3-simulation",
+  "version": "1.0.0",
+  "description": "Educational simulation of Uniswap V3 mechanics",
+  "main": "uniswap_v3_educational.js",
+  "scripts": {
+    "test": "node uniswap_v3_swap_test.js",
+    "simple": "node uniswap_v3_simple_test.js",
+    "educational": "node uniswap_v3_educational.js"
+  },
+  "keywords": [
+    "uniswap",
+    "defi",
+    "amm",
+    "simulation",
+    "concentrated-liquidity"
+  ],
+  "author": "",
+  "license": "MIT",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "dependencies": {
+    "@uniswap/sdk-core": "^7.7.2",
+    "@uniswap/v3-sdk": "^3.25.2",
+    "ethers": "^6.9.0",
+    "jsbi": "^4.3.0"
+  }
+}
